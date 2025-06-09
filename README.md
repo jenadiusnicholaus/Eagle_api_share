@@ -25,11 +25,13 @@
 
   You can search by either of the following fields
   ```python
-  search_fields = [
-        "exhibit_label_number",
-        "name",
-        "exhibit_description",
+   search_fields = [
+        "external_user__first_name",
+        "external_user__middle_name",
+        "external_user__last_name",
+        "external_user__identification_number",
     ]
+
 
 ```
   
