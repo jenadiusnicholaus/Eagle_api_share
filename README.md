@@ -187,7 +187,7 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-exhibits/
   "exhibit_financial_value": 1000.00,
   "attachment": {
     "attachment_type": 5,
-    "attachment_path": "data:image/jpeg;base64,/9j/4...
+    "attachment_path": "data:image/jpeg;base64,/9j/4..."
   },
   "strong_room": 1,
   "strong_room_desc": "Top shelf, locked",
@@ -209,7 +209,7 @@ POST, and PATCH
 {
   "attachment_path": "data:application/pdf;base64,JVBERi0xLjQKJcTl8uXrp/Og0MTGCjEgMCBvYmoKPDwvTGluZWFyaXplZCAxL0wgMTEzODQvTyAyL0UgMTA1MTIvTiAxL1QgMTEyNTg+PgplbmRvYmoK...", 
   "attachment_type_id": 1,
-  "pe": 1         // The related PropertyCaseFile or parent object ID
+  "pe": 1         
 
 }
 ```
