@@ -161,7 +161,7 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-exhibits/?exhibit_id=2&search=RA
 
 search by
 
-```json
+```python
 
   search_fields = [
         "exhibit_label_number",
@@ -204,7 +204,7 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-exhibits/
 
 GET: http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-attachments/?attachment_id=2&search=attachment_type
 
-POST, and PATCH
+> POST, and PATCH
 ```json
 {
   "attachment_path": "data:application/pdf;base64,JVBERi0xLjQKJcTl8uXrp/Og0MTGCjEgMCBvYmoKPDwvTGluZWFyaXplZCAxL0wgMTEzODQvTyAyL0UgMTA1MTIvTiAxL1QgMTEyNTg+PgplbmRvYmoK...", 
