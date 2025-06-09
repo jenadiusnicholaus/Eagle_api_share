@@ -8,7 +8,9 @@
   http://127.0.0.1:8008/eagle/api/v1.0/core/create_case_property/
 > 
   ### I just added the name
+  
   ```json
+
     {
     "case_info": 1,
     "name": "sample name",
@@ -22,7 +24,7 @@
   http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-suspects/?suspect_id=5&search=ID123456789&page=1&page_size=2
 
   You can search by either of the following fields
-  ```json
+  ```python
   search_fields = [
         "exhibit_label_number",
         "name",
