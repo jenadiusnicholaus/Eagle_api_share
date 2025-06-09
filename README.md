@@ -100,10 +100,16 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-suspects/
 > 
  search by 
  ```python
- search_fields = [
-        "exhibit_label_number",
-        "name",
-        "exhibit_description",
+search_fields = [
+        "external_user__first_name",
+        "external_user__middle_name",
+        "external_user__last_name",
+        "external_user__identification_number",
+        "external_user__phone_number",
+        "external_user__email",
+        "occupation",
+        "relationship",
+        "statement",
     ]
 ```
 
@@ -146,6 +152,14 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-suspects/
 http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-witnesses/?witness_id=1
 >
 > Same json
+
+#PE Exhibit
+
+> GET:
+http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-exhibits/?exhibit_id=2&search=RAV
+>
+
+search by
 
 
 
