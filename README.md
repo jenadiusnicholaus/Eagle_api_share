@@ -18,7 +18,7 @@
     "suspect_property_remarks": "kssksk"
     }
 ```
-# pe-suspects
+# PE suspects
 > GET:
 > 
   http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-suspects/?search=ID123456789&page=1&page_size=2
@@ -153,7 +153,7 @@ http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-witnesses/?witness_id=1
 >
 > Same json
 
-#PE Exhibit
+# PE Exhibit
 
 > GET:
 http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-exhibits/?exhibit_id=2&search=RAV
