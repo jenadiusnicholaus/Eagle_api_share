@@ -142,6 +142,20 @@ All Attchment
 
 ```
 
+> ON Case, Exhibit POST and PATCH
+>
+```json
+  # add
+"attachments": [
+        {
+        + "name": "security doc1",
+        "attachment_type_id": 1,
+        "attachment_path": "data:@file/pdf;base64,"
+        }
+    ]
+```
+
+
     
 
   
