@@ -88,6 +88,61 @@ All Attchment
 }
 ```
 
+> POST, PATCH  http://localhost:8008/eagle/api/v1.0/core/create_doc_preliminary_test/
+```json
+// http://localhost:8008/eagle/api/v1.0/core/create_doc_preliminary_test/
+{
+    "exhibit": 1,
+    "sample_id": "Preliminary Test Name",
+    "preliminary_test_desc": "Description of Preliminary Test",
+    "preliminary_test_date_conducted": "2023-10-01",
+    "preliminary_test_results": 1,
+    "instruments": [
+       1
+    ],
+    "sample_type_id": 1,
+    "sample_from_id": 1,
+    "attachment": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAzFBMVEX///8VFRUZGRk2NjYbGxszMzMfHx8YGBg",
+ 
+    "drug_type_id": 1,
+    + "attachment_name": "doc1"
+}
+```
+>POST, PATCH http://127.0.0.1:8008/eagle/api/v1.0/core/create_doc_witness_info/
+>
+```json
+{
+    "witness_first_name": "John",
+    "witness_middle_name": "Michael",
+    "witness_last_name": "Doe",
+    "witness_other_name": "Johnny",
+   "case_info_id": 1,
+    "witness_sex": 1,  // ID from Sex model
+    "witness_dob": "1985-05-15",
+    "witness_tribe": 1,  // ID from Tribe model (optional)
+    "witness_nationality": 1,  // ID from Country model
+    "witness_religion": 1,  // ID from Religion model
+    "witness_identity_type": 1,  // ID from IdentityType model
+    "witness_identity_number": "A1234567",
+    "witness_phone_number": "+1234567890",
+    "witness_email": "john.doe@example.com",
+    "witness_occupation": "Software Developer",
+    // "witness_postal_address": "123 Main St, City",
+    "witness_physical_address": "123 Main St, City",
+    "witness_remarks": "Important witness in the case",
+    // ID of the case this witness is related to (optional)
+    "attachments": [
+        {
+        + "name": "security doc1",
+        "attachment_type_id": 1,
+        "attachment_path": "data:@file/pdf;base64,"
+        }
+    ]  // This will be handled as a file upload
+   // ID of the attachment type (if uploading a file)
+}
+
+```
+
     
 
   
