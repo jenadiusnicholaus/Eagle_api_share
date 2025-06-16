@@ -83,7 +83,7 @@ All Attchment
     "drug_type": 1,
     "attachment": "data:image/png;base64,iVBORw0K.....",
        
-    "attachment_name": "kakakaka"
+    + "attachment_name": "kakakaka"
     
 }
 ```
