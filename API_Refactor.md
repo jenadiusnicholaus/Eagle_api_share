@@ -117,28 +117,27 @@ All Attchment
     "witness_last_name": "Doe",
     "witness_other_name": "Johnny",
    "case_info_id": 1,
-    "witness_sex": 1,  // ID from Sex model
+    "witness_sex": 1,  
     "witness_dob": "1985-05-15",
-    "witness_tribe": 1,  // ID from Tribe model (optional)
-    "witness_nationality": 1,  // ID from Country model
-    "witness_religion": 1,  // ID from Religion model
-    "witness_identity_type": 1,  // ID from IdentityType model
+    "witness_tribe": 1,  
+    "witness_nationality": 1, 
+    "witness_religion": 1,  
+    "witness_identity_type": 1, 
     "witness_identity_number": "A1234567",
     "witness_phone_number": "+1234567890",
     "witness_email": "john.doe@example.com",
     "witness_occupation": "Software Developer",
-    // "witness_postal_address": "123 Main St, City",
     "witness_physical_address": "123 Main St, City",
     "witness_remarks": "Important witness in the case",
-    // ID of the case this witness is related to (optional)
+   
     "attachments": [
         {
         + "name": "security doc1",
         "attachment_type_id": 1,
         "attachment_path": "data:@file/pdf;base64,"
         }
-    ]  // This will be handled as a file upload
-   // ID of the attachment type (if uploading a file)
+    ]  
+   
 }
 
 ```
