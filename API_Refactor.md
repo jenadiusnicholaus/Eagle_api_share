@@ -32,9 +32,9 @@ All Attchment
 > POST PATCH, http://127.0.0.1:8008/eagle/api/v1.0/core/pe/pe-attachments/
 ```json
 {
-  "name":"doc1",
+  + "name":"doc1",
   "attachment_path": "data:@file/pdf;base64..",
- + "attachment_type_id": 1,
+ "attachment_type_id": 1,
   "pe": 1
 }
 ```
